@@ -6,14 +6,16 @@ class Home extends Component {
       this.state = {
       }
    }
+
    render(){
       return(
          <div className="homeBox">
-            <h1> Primo </h1>
-            <p> Story Of You </p> 
-         </div>
+            <br /> 
+            <p> The Story Of You </p> 
+         </div> 
       )
    }
+
 }
 
 export default Home;  

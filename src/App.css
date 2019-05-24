@@ -31,3 +31,9 @@
     transform: rotate(360deg);
   }
 }
+
+.primoLogoImage{
+  height: 50%;
+  width: 50%; 
+  color: white; 
+}
