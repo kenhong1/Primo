@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -33,7 +34,31 @@
 }
 
 .primoLogoImage{
-  height: 50%;
-  width: 50%; 
-  color: white; 
+  height: auto;
+  width: 30%; 
+  color: 
+}
+
+
+.productsHeader{
+  font-family: 'Lora', serif;
+}
+
+.navFont{
+  font-family: 'Lora', serif;
+
+}
+
+
+.ptag{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3em; 
+
+}
+
+
+.productsBox{
+  margin: 5% ;
+  margin-left: 10%;
+  margin-right: 10%;  
 }

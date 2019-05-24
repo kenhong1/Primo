@@ -4,6 +4,7 @@ import { Nav, Navbar, Image} from "react-bootstrap"
 import primoLogoDark from "./Media/primoLogoDark.svg"
 import './App.css';
 import Home from "./Pages/Home"
+import Products from "./Pages/Products"
 
 
 class App extends Component {
@@ -18,14 +19,16 @@ class App extends Component {
             <Nav.Link href="/"> 
             <Image className="primoLogoImage" src={primoLogoDark} type="svg" /> 
             </Nav.Link>
-            <Nav.Link href="/about-me"> 
+            <Nav.Link href="/about-me" className="navFont"> 
             About 
             </Nav.Link>
-            <Nav.Link href="/products"> 
+            <Nav.Link href="/products" className="navFont"> 
             Products
             </Nav.Link>
         </Navbar>
           <Route exact path="/" component={Home} /> 
+          <Route exact path="/products" render={() => <Products Products={Products} /> }/> 
+
       </div>
       </BrowserRouter>
     );
