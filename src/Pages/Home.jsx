@@ -26,7 +26,7 @@ class Home extends Component {
                      alt="First slide"
                      />
                <Carousel.Caption>
-                  <h3>David Gandy </h3>
+                  <h3>Story Of You </h3>
                </Carousel.Caption>
                </Carousel.Item>
                <Carousel.Item>

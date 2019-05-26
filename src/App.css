@@ -40,9 +40,10 @@
 }
 
 
-.productsHeader{
+.productsHeader, .blogHeader{
   font-family: 'Lora', serif;
 }
+
 
 .navFont{
   font-family: 'Lora', serif;
@@ -57,7 +58,7 @@
 }
 
 
-.AboutBox{
+.AboutBox, .blogBox{
   margin: 5% ;
   margin-left: 10%;
   margin-right: 10%;  

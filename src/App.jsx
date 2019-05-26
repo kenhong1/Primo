@@ -6,6 +6,7 @@ import './App.css';
 import Home from "./Pages/Home"
 import Products from "./Pages/Products"
 import AboutMe from "./Pages/AboutMe"
+import Blog from "./Pages/Blog" 
 
 
 class App extends Component {
@@ -21,15 +22,19 @@ class App extends Component {
             <Image className="primoLogoImage" src={primoLogoDark} type="svg" /> 
             </Nav.Link>
             <Nav.Link href="/about" className="navFont"> 
-            About 
+              About 
             </Nav.Link>
             <Nav.Link href="/products" className="navFont"> 
-            Products
+              Products
+            </Nav.Link>
+            <Nav.Link href="/blog" className="blog">
+              Blog
             </Nav.Link>
         </Navbar>
           <Route exact path="/" component={Home} /> 
           <Route exact path="/products" render={() => <Products Products={Products} /> }/> 
           <Route exact path="/about" render={() => <AboutMe AboutMe={AboutMe} /> } /> 
+          <Route exact path="/blog" render={() => <Blog Blog={Blog} /> } /> 
 
       </div>
       </BrowserRouter>
