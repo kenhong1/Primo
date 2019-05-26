@@ -22,13 +22,13 @@ class App extends Component {
             <Image className="primoLogoImage" src={primoLogoDark} type="svg" /> 
             </Nav.Link>
             <Nav.Link href="/about" className="navFont"> 
-              About 
+              <h3 className="navHeader"> About </h3> 
             </Nav.Link>
             <Nav.Link href="/products" className="navFont"> 
-              Products
+              <h3 className="navHeader"> Products </h3>
             </Nav.Link>
             <Nav.Link href="/blog" className="blog">
-              Blog
+              <h3 className="navHeader"> Blog </h3> 
             </Nav.Link>
         </Navbar>
           <Route exact path="/" component={Home} /> 

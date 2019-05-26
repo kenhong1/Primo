@@ -1,8 +1,11 @@
 import React, { Component } from "react"; 
-import {Carousel} from "react-bootstrap"
+import {Carousel, Image, Col, Row} from "react-bootstrap"
 import david1 from "../Media/Suit1.jpg"
 import david2 from "../Media/suit2.jpeg"
 import david3 from "../Media/suit3.jpeg"
+import pro from "../Media/pro.jpeg"
+import pro2 from "../Media/pro2.jpeg"
+import pro3 from "../Media/pro3.jpeg"
 // import primoLogoDark from "./Media/primoLogoDark.svg"
 
 
@@ -53,6 +56,23 @@ class Home extends Component {
                </Carousel.Item>
             </Carousel>
             </div>
+            <br /> 
+            <div className="productPreviewBox">
+               <h1 className="productPreviewHeader"> Discover Your Potential </h1> 
+               <br /> 
+                  <Row>
+                     <Col>
+                        <Image className="proImage" src={pro} fluid />
+                     </Col>
+                     <Col>
+                        <Image className="proImage" src={pro2} fluid />
+                     </Col>
+                     <Col>
+                        <Image className="proImage" src={pro3} fluid /> 
+                     </Col>
+                  </Row>
+
+            </div>   
 
 
          </div> 
