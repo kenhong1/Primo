@@ -35,7 +35,6 @@ class App extends Component {
           <Route exact path="/products" render={() => <Products Products={Products} /> }/> 
           <Route exact path="/about" render={() => <AboutMe AboutMe={AboutMe} /> } /> 
           <Route exact path="/blog" render={() => <Blog Blog={Blog} /> } /> 
-
       </div>
       </BrowserRouter>
     );
