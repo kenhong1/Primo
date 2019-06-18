@@ -71,9 +71,12 @@ class Home extends Component {
                         <Image className="proImage" src={pro3} fluid /> 
                      </Col>
                   </Row>
-
             </div>   
+            <div className="showBox">
+               <h1> SS19 Collection</h1>
+                  <p>Take a look at our new line! </p>
 
+            </div>
 
          </div> 
       )
